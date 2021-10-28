@@ -1,16 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld />
-  <show-text msg="Hey dude :)" />
+  <Tabs />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Tabs from './components/Tabs.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Tabs
   }
 }
 </script>
